@@ -70,7 +70,7 @@ def sher(data):
 	selected = collection[random.randrange(0,5,1)]
 	print("\nSelected sher = "+selected)
 
-	data['queryResult']['fulfillmentMessages'] = selected
+	data['queryResult']['fulfillmentMessages'] = [{'text': {'text': [selected] }}]
 	print("Data in sher fulfillment : \n")
 	for i in data:
 		print("", i, ":", data[i])
@@ -87,7 +87,7 @@ def ghazal(data):
 	selected = collection[random.randrange(0,5,1)]
 	print("\nSelected ghazal = "+selected)
 
-	data['queryResult']['fulfillmentMessages'] = selected
+	data['queryResult']['fulfillmentMessages']= [{'text': {'text': selected }}]
 	print("Data in ghazal fulfillment : \n")
 	for i in data:
 		print("", i, ":", data[i])
