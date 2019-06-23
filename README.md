@@ -6,7 +6,8 @@ The extant project is not exhaustive is models a few possible aspects which coul
 * **webhook**, which calls other specific functions corresponding to the requested `action` in `queryResult`;
 * **text responses** directly handled by predefined `intents` and `fulfillments` in `Dialogflow`.
 <br>
-<img src="https://github.com/nidheekamble/Naaz/blob/master/fulfillment.png">
+ <img src="https://github.com/nidheekamble/Naaz/blob/master/fulfillment.PNG">
+ Image taken from: Dialogflow Docs
 <br>
 
 ## Demo
