@@ -79,7 +79,7 @@ def sher(data):
 
 
 def ghazal(data):
-	collection = [" 'aasmaan itni bulandi pe jo itraata hai, bhuul jaata hai zameen se hi nazar aata hai' - Waseem Barelvi",
+	'''collection = [" 'aasmaan itni bulandi pe jo itraata hai, bhuul jaata hai zameen se hi nazar aata hai' - Waseem Barelvi",
 			" 'har shaḳhs dauDta hai yahaan bhiiD ki taraf, phir ye bhi chahta hai use rasta mile' - Waseem Barelvi",
 			" 'har-chand e'tibaar mein dhoke bhi hain magar, ye to nahin kisi pe bharosa kiya na jaa.e' - Jaan Nisar Akhtar ", 
 			" 'jhuuT vaale kahin se kahin baDh ga.e, aur main tha ki sach bolta reh gaya' - Waseem Barelvi",
@@ -87,7 +87,7 @@ def ghazal(data):
 	selected = collection[random.randrange(0,5,1)]
 	print("\nSelected ghazal = "+selected)
 
-	data['queryResult']['fulfillmentMessages']= [{'text': {'text': selected }}]
+	data['queryResult']['fulfillmentMessages']= [{'text': {'text': selected }}]'''
 	print("Data in ghazal fulfillment : \n")
 	for i in data:
 		print("", i, ":", data[i])
