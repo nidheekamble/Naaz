@@ -12,5 +12,5 @@ The extant project is not exhaustive is models a few possible aspects which coul
 ## Demo
 *Naaz* is intended to rather be a supplement to any main website/webpage or PWA than a standalone component. <hr>
  <img src="https://github.com/nidheekamble/Naaz/blob/master/NaazPreview.gif">
-<hr>
+
 *The `Dialogflow` and `Pusher` credentials used for Naaz have been removed this online respository for security reasons and are stored locally.*
