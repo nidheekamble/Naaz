@@ -7,6 +7,6 @@ The extant project is not exhaustive and is only a preview. The responses are fe
 * **text responses** directly handled by predefined `intents` and `fulfillments` in `Dialogflow`.
 
 *Naaz* is intended to rather be a supplement to any main website/webpage or PWA than a standalone component. 
- [!Naaz Demo](https://github.com/nidheekamble/Naaz/NaazPreview.gif)
+ [!Naaz Demo](https://github.com/nidheekamble/Naaz/blob/master/NaazPreview.gif)
  
-*The `Dialogflow` and `Pusher` credential used for Naaz have been removed this online respository for security reasons and are stored locally.*
+*The `Dialogflow` and `Pusher` credentials used for Naaz have been removed this online respository for security reasons and are stored locally.*
